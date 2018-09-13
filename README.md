@@ -1,6 +1,6 @@
 # Project 1
 
-Project 1 of the Udacity Front End Development Program : Build a portfolio site
+Project 1 of the Udacity Front End Developer Nanodegree Program : Build a portfolio site
 
 You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a 
 responsive website that will display images, descriptions, and links to each of the portfolio projects you will complete 
