@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+body{
+font-family: 'Montserrat', sans-serif;
+margin: 0 auto;
+max-width: 100%;
+}
+
+#background{
+background-image:url("../IMG/backgroundphoto.jpg") ;
+background-size: cover;
+background-repeat:no-repeat;
+background-size: cover;
+background-position:center;
+height: 50em;
+}
+
+#footer{
+padding-top:6em;
+}
+
+/*Navbar*/
+#navbar ul{
+float:right;
+}
+
+#navbar li{
+display:inline;
+list-style:none;
+padding-left:3em;
+}
+
+.container{
+margin:0 auto;
+}
+
+.typewriter{
+top: 10%; 
+width: 20em;
+margin: 0 auto;
+font-family: 'Inconsolata', monospace;
+border-right: 2px solid white;
+font-size: 120%;
+white-space: nowrap;
+overflow: hidden;
+transform: translateY(-50%);    
+}
+
+/* Animation */
+.typewriter{
+animation: typewriter 6s steps(45) 2s 1 normal both,
+blinkTextCursor 700ms steps(45) infinite normal;
+}
+
+@keyframes typewriter{
+from{width: 0;}
+to{width: 20em;}
+}
+
+@keyframes blinkTextCursor{
+from{border-right-color: black;}
+to{border-right-color: transparent;}
+}
+
+/*link tags*/
+a{
+text-decoration:none;
+color:black;
+font-size: 1em;
+}
+
+a:hover{
+text-decoration: line-through;
+}
+
+h1{
+padding-top:3em;
+font-size:4em;
+}
+
+h4{
+padding-bottom: 3em;
+}
+
+section img{
+width:90%;
+height:auto;
+padding-bottom: 2em;
+}
+
+/*Media Query*/
+@media screen and (max-width: 750px){
+
+#logo{
+padding-bottom:40px;
+}
+
+#navbar li{
+display: block;
+list-style:none ;
+text-align: center;
+padding-bottom:40px;
+padding-left: 0;
+}
+
+section img{
+height:auto;
+padding-bottom: 2em;
+} 
+
+.typewriter{
+font-size:100%
+}
+
+#navbar ul{
+float:none;
+padding:0 auto;
+margin:0 auto;
+padding-right:10%;
+}
+
+h1{
+padding-top: 1em;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
