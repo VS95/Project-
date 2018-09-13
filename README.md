@@ -1,4 +1,4 @@
-# Project-1
+# Project 1
 
 Project 1 of the Udacity Front End Development Program : Build a portfolio site
 
